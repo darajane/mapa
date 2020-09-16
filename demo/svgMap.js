@@ -2271,9 +2271,9 @@ svgMap.prototype.init = function (options) {
     mouseWheelZoomEnabled: true,
 
     // Data colors
-    colorMax: '#2066b1',
-    colorMin: '#2066b1',
-    colorNoData: '#1d63b0',
+    colorMax: '#101A2B',
+    colorMin: '#101A2B',
+    colorNoData: '#101A2B',
 
     // The flag type can be 'image' or 'emoji'
     flagType: 'emoji',
@@ -2598,7 +2598,7 @@ svgMap.prototype.applyData = function (data) {
     var value = Math.max(min, parseInt(data.values[countryID][data.applyData], 10));
     var ratio = Math.max(0, Math.min(1, (value - min) / (max - min)));
     var color = this.getColor(this.options.colorMax, this.options.colorMin, ratio);
-    element.setAttribute('fill', '#02bf7d');
+    element.setAttribute('fill', '#2066b1');
   }.bind(this));
 
 };

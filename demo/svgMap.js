@@ -2765,7 +2765,7 @@ svgMap.prototype.emojiFlags = {
   NF: '',
   KP: '',
   MP: '',
-  NO: 'Norway',
+  NO: 'NO',
   OM: '',
   PK: '',
   PW: '',
@@ -2922,8 +2922,12 @@ svgMap.prototype.createMap = function () {
 
     countryElement.addEventListener('mouseenter', function (e) {
       var countryID = countryElement.getAttribute('data-id');
-      this.setTooltipContent(this.getTooltipContent(countryID));
-      this.showTooltip(e);
+      if (this.options.data.values[countryID]){
+        this.setTooltipContent(this.getTooltipContent(countryID));
+        this.showTooltip(e);
+      }
+      // this.setTooltipContent(this.getTooltipContent(countryID));
+      // this.showTooltip(e);
     }.bind(this));
 
     countryElement.addEventListener('mousemove', function (e) {

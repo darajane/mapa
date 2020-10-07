@@ -1,71 +1,356 @@
 var svgMapDataGPD = {
   data: {
-    Bitstamp: {
-      name: 'Bitstamp'
+    Buda: {
+      name: 'Buda'
     },
-    CEX: {
-      name: 'CEX'
+    SouthXchange: {
+      name: 'SouthXchange'
     },
-    Crex24: {
-      name: 'Crex24'
+    IndependentReserve: {
+      name: 'Independent Reserve'
     },
-    Okex: {
-      name: 'Okex'
+    ACX: {
+      name: 'ACX'
     },
-    Bitbay: {
-      name: 'Bitbay'
+    CoinSpot: {
+      name: 'CoinSpot'
+    },
+    BTCMarkets: {
+      name: 'BTC Markets'
+    },
+    NegocieCoins: {
+      name: 'NegocieCoins'
+    },
+    MercadoBitcoin: {
+      name: 'Mercado Bitcoin'
+    },
+    Braziliex: {
+      name: 'Braziliex'
+    },
+    Bleutrade: {
+      name: 'Bleutrade'
+    },
+    flowBTC: {
+      name: 'flowBTC'
+    },
+    FoxBit: {
+      name: 'FoxBit'
+    },
+    Bitfinex: {
+      name: 'Bitfinex'
+    },
+    Coingi: {
+      name: 'Coingi'
+    },
+    BCEX: {
+      name: 'BCEX'
+    },
+    Allcoin: {
+      name: 'Allcoin'
+    },
+    Latoken: {
+      name: 'Latoken'
+    },
+    ChileBit: {
+      name: 'ChileBit'
+    },
+    BitMart: {
+      name: 'BitMart'
+    },
+    BitMax: {
+      name: 'BitMax'
+    },
+    BTCChina4CoinEgg: {
+      name: 'BTCChina4CoinEgg'
+    },
+    CoinEx: {
+      name: 'CoinEx'
+    },
+    CoinTiger: {
+      name: 'CoinTiger'
+    },
+    EXX: {
+      name: 'EXX'
+    },
+    FCoin: {
+      name: 'FCoin'
+    },
+    Gateio: {
+      name: 'Gate.io'
     },
     HuobiPro: {
-      name: 'HuobiPro'
+      name: 'Huobi Pro'
     },
-    Kucoin: {
-      name: 'Kucoin'
+    KKEX: {
+      name: 'KKEX'
+    },
+    Bitforex: {
+      name: 'Bitforex'
+    },
+    Liquid: {
+      name: 'Liquid'
+    },
+    OKCoinCNY: {
+      name: 'OKCoin CNY'
+    },
+    OKCoinUSD: {
+      name: 'OKCoin USD'
+    },
+    OKEX: {
+      name: 'OKEX'
     },
     ZB: {
       name: 'ZB'
     },
-    Hitbtc: {
-      name: 'Hitbtc'
+    Bibox: {
+      name: 'Bibox'
     },
-    Poloniex: {
-      name: 'Poloniex'
+    bitkk: {
+      name: 'bitkk'
+    },
+    LBank: {
+      name: 'LBank'
+    },
+    CEXIO: {
+      name: 'CEX.IO'
+    },
+    CoinMate: {
+      name: 'CoinMate'
+    },
+    CREX24: {
+      name: 'CREX24'
+    },
+    WhiteBit: {
+      name: 'WhiteBit'
+    },
+    BitBay: {
+      name: 'BitBay'
+    },
+    Paymium: {
+      name: 'Paymium'
+    },
+    VirWoX: {
+      name: 'VirWoX'
+    },
+    Bitlish: {
+      name: 'Bitlish'
+    },
+    BL3P: {
+      name: 'BL3P'
+    },
+    DXExchange: {
+      name: 'DX.Exchange'
+    },
+    BtcTradeim: {
+      name: 'BtcTrade.im'
+    },
+    ByteTrade: {
+      name: 'ByteTrade'
+    },
+    CoolCoin: {
+      name: 'CoolCoin'
+    },
+    FTX: {
+      name: 'FTX'
+    },
+    HitBTCit: {
+      name: 'HitBTC'
+    },
+    MixCoins: {
+      name: 'MixCoins'
+    },
+    TideBit: {
+      name: 'TideBit'
+    },
+    ANXPro: {
+      name: 'ANXPro'
+    },
+    BitZ: {
+      name: 'Bit-Z'
+    },
+    CoinExchange: {
+      name: 'CoinExchange'
+    },
+    INDODAX: {
+      name: 'INDODAX'
+    },
+    coincheck: {
+      name: 'coincheck'
+    },
+    Bit2C: {
+      name: 'Bit2C'
+    },
+    bitFlyer: {
+      name: 'bitFlyer'
+    },
+    BtcBox: {
+      name: 'BtcBox'
+    },
+    Zaif: {
+      name: 'Zaif'
+    },
+    Binance: {
+      name: 'Binance'
+    },
+    bitbank: {
+      name: 'bitbank'
+    },
+    FCoinJP: {
+      name: 'FCoinJP'
+    },
+    BinanceJersey: {
+      name: 'Binance Jersey'
+    },
+    Mandala: {
+      name: 'Mandala'
+    },
+    TheRockTrading: {
+      name: 'TheRockTrading'
+    },
+    Adara: {
+      name: 'Adara'
+    },
+    Bequant: {
+      name: 'Bequant'
+    },
+    Bitso: {
+      name: 'Bitso'
+    },
+    COSS: {
+      name: 'COSS'
+    },
+    Deribit: {
+      name: 'Deribit'
+    },
+    BTCXE: {
+      name: '1BTCXE'
+    },
+    EXMO: {
+      name: 'EXMP'
+    },
+    HuobiRussia: {
+      name: 'Huobi Russia'
+    },
+    LiveCoin: {
+      name: 'LiveCoin'
+    },
+    xBTCe: {
+      name: 'xBTCe'
+    },
+    YoBit: {
+      name: 'YoBit'
+    },
+    BitMEX: {
+      name: 'BitMEX'
+    },
+    KuCoin: {
+      name: 'KuCoin'
+    },
+    DigiFinex: {
+      name: 'DigiFinex'
+    },
+    luno: {
+      name: 'luno'
+    },
+    ICE3X: {
+      name: 'ICE3X'
+    },
+    Bithumb: {
+      name: 'Bithumb'
+    },
+    CoinOne: {
+      name: 'CoinOne'
+    },
+    FYBSE: {
+      name: 'FYB-SE'
+    },
+    lykke: {
+      name: 'lykke'
+    },
+    Vaultoro: {
+      name: 'Vaultoro'
+    },
+    COBINHOOD: {
+      name: 'COBINHOOD'
+    },
+    BTCTurk: {
+      name: 'BTCTurk'
+    },
+    Tidex: {
+      name: 'Tidex'
     },
     BigOne: {
       name: 'BigOne'
     },
-    Liquid: {
-      name: 'Liquid'
+    Bitstamp: {
+      name: 'Bitstamp'
+    },
+    CoinFalcon: {
+      name: 'CoinFalcon'
+    },
+    coinfloor: {
+      name: 'coinfloor'
+    },
+    DSX: {
+      name: 'DSX'
+    },
+    Kuna: {
+      name: 'Kuna'
+    },
+    Bittrex: {
+      name: 'Bittrex'
+    },
+    BTCAlpha: {
+      name: 'BTC-Alpha'
+    },
+    Coinbase: {
+      name: 'Coinbase'
+    },
+    CoinbasePrime: {
+      name: 'Coinbase Prime'
+    },
+    CoinbasePro: {
+      name: 'Coinbase Pro'
+    },
+    CoinMarketCap: {
+      name: 'CoinMarketCap'
+    },
+    Gemini: {
+      name: 'Gemini'
+    },
+    itBit: {
+      name: 'itBit'
+    },
+    Kraken: {
+      name: 'Kraken'
+    },
+    LakeBTC: {
+      name: 'LakeBTC'
+    },
+    OceanEx: {
+      name: 'OceanEx'
+    },
+    Poloniex: {
+      name: 'Poloniex'
+    },
+    TheOcean: {
+      name: 'The Ocean'
+    },
+    BinanceUS: {
+      name: 'Binance US'
+    },
+    SurBitcoin: {
+      name: 'SurBitcoin'
+    },
+    VBTC: {
+      name: 'VBTC'
     }
-
-    // gdp: {
-    //   //mudar o nome dentro do mapa
-    //   name: 'BTC',
-    //   format: '',
-    //   thousandSeparator: '',
-    //   thresholdMax: '',
-    //   thresholdMin: ''
-    // },
-    // change: {
-    //   name: 'Change to year before',
-    //   format: '{0} %'
-    // },
-    // gdpAdjusted: {
-    //   name: 'Purchasing Power Parity',
-    //   format: '{0} USD',
-    //   thousandSeparator: ',',
-    //   thresholdMax: 50000,
-    //   thresholdMin: 1000
-    // },
-    // changeAdjusted: {
-    //   name: 'Change to year before',
-    //   format: '{0} %'
-    // }
   },
-  applyData: 'Bitstamp',
+  applyData: 'Buda',
   values: {
     //comentando em frente ao nome significa que nao temos dados sobre o pais 
      //AF: {gdp: 587, change: 4.73, gdpAdjusted: 1958, changeAdjusted: 0.02},
-     AL: {Bitstamp:'', CEX:'', Crex24:'', Okex:'', Bitbay:'', HuobiPro:'', Kucoin:'', ZB:'', Hitbtc:'', Poloniex:'', BigOne:'', Liquid:''},
+     AL: {Buda:'', CEX:'', Crex24:'', Okex:'', Bitbay:'', HuobiPro:'', Kucoin:'', ZB:'', Hitbtc:'', Poloniex:'', BigOne:'', Liquid:''},
   //   DZ: {gdp: 4293, change: 10.01, gdpAdjusted: 15237, changeAdjusted: 0.33},
   //   AO: {gdp: 4408, change: 26.49, gdpAdjusted: 6753, changeAdjusted: -2.56},
   //   AG: {gdp: 16702, change: 3.26, gdpAdjusted: 26231, changeAdjusted: 2.15},
@@ -86,7 +371,7 @@ var svgMapDataGPD = {
   //   BO: {gdp: 3353, change: 7.30, gdpAdjusted: 7547, changeAdjusted: 2.73},
   //   BA: {gdp: 5149, change: 7.04, gdpAdjusted: 12724, changeAdjusted: 2.60},
   //   BW: {gdp: 7877, change: 8.34, gdpAdjusted: 17828, changeAdjusted: 0.38},
-    BR: {Bitstamp:'', CEX:'', Crex24:'', Okex:'', Bitbay:'', HuobiPro:'', Kucoin:'', ZB:'', Hitbtc:'', Poloniex:'', BigOne:'', Liquid:''},
+    BR: {Buda:'', CEX:'', Crex24:'', Okex:'', Bitbay:'', HuobiPro:'', Kucoin:'', ZB:'', Hitbtc:'', Poloniex:'', BigOne:'', Liquid:''},
   //   BN: {gdp: 29712, change: 10.31, gdpAdjusted: 78196, changeAdjusted: -0.70},
   //   BG: {gdp: 8064, change: 7.58, gdpAdjusted: 21687, changeAdjusted: 4.23},
   //   BF: {gdp: 664, change: 8.11, gdpAdjusted: 1889, changeAdjusted: 3.55},
